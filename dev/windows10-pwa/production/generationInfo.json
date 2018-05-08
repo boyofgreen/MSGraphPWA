@@ -1,0 +1,10 @@
+{
+    "generationTool": "pwabuilder-api",
+    "generationToolVersion": "2.0.1-rc.0",
+    "platformId": "windows10",
+    "platformPackage": "pwabuilder-windows10",
+    "platformVersion": "2.0.3-rc.1",
+    "generatedFrom": "Website Wizard",
+    "generationDate": "2018-04-26 18:17:01 Z",
+    "generatedURL": "https://goatdemo.azurewebsites.net/manifest.json"
+}

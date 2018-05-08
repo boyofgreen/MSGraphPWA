@@ -1,0 +1,36 @@
+* { margin: 0; padding: 0; }
+body {
+    -webkit-touch-callout: none;                /* prevent callout to copy image, etc when tap to hold */
+    -webkit-text-size-adjust: none;             /* prevent webkit from resizing text to fit */
+    background-color:#fff;
+    color: #333;
+    font-family: Helvetica, Arial, sans-serif;
+    font-size:12px;
+    margin:0;
+    padding:0;
+}
+* {
+    -webkit-tap-highlight-color: rgba(0,0,0,0); /* make transparent link selection, adjust last value opacity 0 to 1.0 */
+}
+
+p { margin: 1em 0; }
+
+.off { display: none !important; }
+
+button { padding: 10px 20px; }
+
+#video, #captureFrame {
+    box-sizing: content-box;
+    width: 100%;
+}
+
+#main{
+    margin:10px;
+}
+
+#analysisStatus {
+    font-weight: bold;
+    color: #333;
+    }
+    #analysisStatus.ok { color: #0a0; }
+    #analysisStatus.bad { color: #a00; }

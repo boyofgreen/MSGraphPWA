@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <title>//BUILD 2018 DEMO</title>
+    <link rel="manifest" href="manifest.json">
+    <meta name="format-detection" content="telephone=no" />
+    <meta name="msapplication-tap-highlight" content="no" />
+    <meta name="viewport" content="user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1, width=device-width" />
+    <meta name="mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+    <meta name="apple-mobile-web-app-title" content="// BUILD 2018 DEMO">
+    <link rel="stylesheet" type="text/css" href="index.css" />
+</head>
+
+<body>
+    <div id="main">
+    <p>
+        <button id="loginButton" class="off">LOGIN</button>
+    </p>
+    <p id="userBar" class="off">
+        Hi
+        <span id="userName"></span>!
+        <br />
+        <button id="logoutButton">LOGOUT</button>
+    </p>
+
+    <hr />
+
+    <p>Notifications permission is
+        <b id="notificationStatus">unavailable</b>.</p>
+
+    <hr />
+    
+    <p id="viewModeBar" class="off">
+        The current viewMode is <span id="viewModeLabel"></span>
+        <br />
+        <button id="changeModeButton">CHANGE TO PICTURE IN PICTURE MODE</button>
+    </p>
+
+    <hr />
+
+    <button id="setLockScreenImageButton" class="off">Set lock screen image</button>
+
+    <hr />
+
+    <div id="camera-capture">
+        <p>Upload a pic of your Goat Yoga session:</p>
+        <video id="video" muted autoplay></video>
+        <p>
+            <label for="videoSource">Video source: </label>
+            <select id="videoSource"></select>
+        </p>
+
+        <button id="captureButton">CAPTURE &amp; ANALIZE</button>
+
+        <p id="analysisStatus" class="off"></p>
+        <p>
+            <img id="captureFrame" class="off" />
+        </p>
+    </div>
+</div>
+    <div id="goat-picture-container" class="off">
+        <img id="goat-picture" src="/images/goat-notification.png" />
+    </div>
+    <script type="text/javascript" src="bundle.js"></script>
+
+</body>
+
+</html>

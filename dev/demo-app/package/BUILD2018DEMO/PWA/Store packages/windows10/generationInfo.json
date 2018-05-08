@@ -1,0 +1,9 @@
+{
+    "generationTool": "pwabuilder",
+    "generationToolVersion": "2.0.3-rc.0",
+    "platformId": "windows10",
+    "platformPackage": "pwabuilder-windows10",
+    "platformVersion": "2.0.3-rc.1",
+    "generatedFrom": "CLI",
+    "generationDate": "2018-05-08 02:17:51 Z"
+}
