@@ -94,22 +94,24 @@ export class Header extends React.Component<{}, HeaderState> {
                     <div className="insight rate">
                         <svg width="100%" height="100%" viewBox="0 0 42 42" className="donut">
                             <circle className="donut-hole" cx="21" cy="21" r="15.91549430918954" fill="transparent"></circle>
-                            <circle className="donut-ring" cx="21" cy="21" r="15.91549430918954" fill="transparent" stroke="#d2d3d4" strokeWidth="5"></circle>
-                            <circle className="donut-segment" cx="21" cy="21" r="15.91549430918954" fill="transparent" stroke="#ce4b99" strokeWidth="5" strokeDasharray="85 15" strokeDashoffset="0"></circle>
+                            <circle className="donut-ring" cx="21" cy="21" r="15.91549430918954" fill="transparent" stroke="#f6f6f6" strokeWidth="5"></circle>
+                            <circle className="donut-segment" cx="21" cy="21" r="15.91549430918954" fill="transparent" stroke="#79d9ea" strokeWidth="5" strokeDasharray="85 15" strokeDashoffset="0"></circle>
                         </svg>
-                        <h4 className="insightHeader">clarity rate</h4>
+                        <h4 className="insightHeader">Clarity Rate</h4>
                     </div>
 
                     <div className="insight insightRate">
                         <div className="insightOne">
                             24
-                    <p>new insights</p>
+                    <p>New Insights</p>
                         </div>
                         <div className="insightTwo">
                             <p>We can invite your closest co-workers to this session.</p>
                             <button id="inviteCoworker">invite them</button>
                         </div>
+                    </div>
 
+                    <div className="insight rate">
                     </div>
 
                     <AppointmentCalendar />
