@@ -53,6 +53,7 @@ export class AppointmentCalendar extends React.Component<{}, AppointmentCalendar
         }
 
         return (<div className="insight" id="schedule">
+            
             {rows.map(r => asRow(r))}
         </div>);
     }

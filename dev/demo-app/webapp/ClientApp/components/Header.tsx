@@ -90,7 +90,7 @@ export class Header extends React.Component<{}, HeaderState> {
                             <a href="#" onClick={this.logout.bind(this)}>Sign out</a>
                         </div>
                         )}
-
+                    <div className="insightCol">
                     <div className="insight rate">
                         <svg width="100%" height="100%" viewBox="0 0 42 42" className="donut">
                             <circle className="donut-hole" cx="21" cy="21" r="15.91549430918954" fill="transparent"></circle>
@@ -110,11 +110,11 @@ export class Header extends React.Component<{}, HeaderState> {
                             <button id="inviteCoworker">invite them</button>
                         </div>
                     </div>
-
-                    <div className="insight rate">
                     </div>
-
+                    <div className="insightCol">
+                    <h2 className="calHead">Today's Calendar</h2>
                     <AppointmentCalendar />
+                    </div>
                 </div>);
     }
 }
